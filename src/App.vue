@@ -1,34 +1,33 @@
 <template>
-  <v-app>
-    <v-toolbar app>
+  <v-app dark>
+    <v-toolbar>
       <v-toolbar-title class="headline text-uppercase">
-        <span>Vuetify</span>
-        <span class="font-weight-light">MATERIAL DESIGN</span>
+        <span>Injector</span>
       </v-toolbar-title>
       <v-spacer></v-spacer>
-      <v-btn
+      <!-- <v-btn
         flat
         href="https://github.com/vuetifyjs/vuetify/releases/latest"
         target="_blank"
       >
         <span class="mr-2">Latest Release</span>
         <v-icon>open_in_new</v-icon>
-      </v-btn>
+      </v-btn> -->
     </v-toolbar>
 
     <v-content>
-      <HelloWorld/>
+      <Profile />
     </v-content>
   </v-app>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld'
+import Profile from './components/Profile'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    Profile
   },
   data () {
     return {
