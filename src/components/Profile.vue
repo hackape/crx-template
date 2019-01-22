@@ -16,8 +16,8 @@ export default {
       {
         id: Date.now(),
         enabled: true,
-        moduleId: 'some string',
-        filePath: 'some other string'
+        moduleId: '',
+        filePath: ''
       }
     ]
   }),
