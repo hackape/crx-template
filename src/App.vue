@@ -12,27 +12,22 @@
       >
         <span class="mr-2">Latest Release</span>
         <v-icon>open_in_new</v-icon>
-      </v-btn> -->
+      </v-btn>-->
     </v-toolbar>
 
     <v-content>
-      <Profile />
+      <Profile/>
     </v-content>
   </v-app>
 </template>
 
 <script>
-import Profile from './components/Profile'
+import Profile from "./components/Profile";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
     Profile
-  },
-  data () {
-    return {
-      //
-    }
   }
-}
+};
 </script>
