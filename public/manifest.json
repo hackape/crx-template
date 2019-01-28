@@ -11,7 +11,7 @@
   },
   "background": {
     "scripts": [
-      "background.js"
+      "js/background.js"
     ]
   },
   "content_scripts": [
@@ -21,7 +21,7 @@
         "*://*.4pd.io/*"
       ],
       "run_at": "document_start",
-      "js": ["inject.js"]
+      "js": ["js/content.js"]
     }
   ],
   "permissions": [
