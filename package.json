@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "@types/chrome": "^0.0.78",
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "material-design-icons-iconfont": "^3.0.3",
     "roboto-fontface": "*",
     "vue": "^2.5.21",
